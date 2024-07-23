@@ -1,0 +1,110 @@
+.buildContainer{
+    background-image: url(../assets/homebannerbg.png);
+}
+
+
+.buildImage{
+    max-width: 650px;
+    cursor: pointer;
+}
+
+#videoPopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px; /* Adjust the width as needed */
+    height: 500px; /* Adjust the height as needed */
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    background-color: #fff; /* Set a background color */
+    overflow: hidden; /* Hide overflow content */
+    animation: fadeIn 0.5s ease; /* Fade in animation */
+}
+
+#closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: white; /* Set color for close button */
+    font-size: 18px; /* Adjust font size */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+
+
+iframe {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 8px;
+}
+
+.openvideo {
+    background-color: #4285f4; /* Set background color for the button */
+    color: #fff; /* Set text color for the button */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+.openvideo:hover {
+    background-color: #3367d6; /* Change background color on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+/* .startgrowing,
+.wearewe {
+text-decoration: none;
+font-family: "DM Sans";
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+text-transform: capitalize;
+color: #637381;
+} */
+
+
+/* .startgrowing,
+.wearewe {
+border: none;
+background-color: #0096f6;
+color: #ffffff;
+} */
+
+
+
+@media only screen and (max-width: 600px) {
+    #videoPopup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100vw; /* Adjust the width as needed */
+        height: 50vh; /* Adjust the height as needed */
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border-radius: 8px;
+        background-color: #fff; /* Set a background color */
+        overflow: hidden; /* Hide overflow content */
+        animation: fadeIn 0.5s ease; /* Fade in animation */
+    }
+  }

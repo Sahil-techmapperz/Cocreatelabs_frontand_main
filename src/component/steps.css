@@ -1,0 +1,36 @@
+@media (max-width: 582px){
+    .grants_first{
+       display: grid !important;
+       grid-template-columns: repeat(1, 1fr) !important;
+        
+    }
+
+
+    .grantsImageFirst{
+        width: 500px;
+    }
+
+    .GrandConnect1leftimag{
+        width: 100% !important;
+    }
+
+    .JoinOurCommunity{
+        width: 100% !important;
+    }
+
+    .GrantsConnectcomponents{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding: 0%;
+    }
+    .complexblocks{
+        width: 100% !important;
+    }
+
+    .haveaQuestion{
+        padding: 0% !important;  
+        width: 100% !important;
+    }
+
+ 
+}

@@ -1,0 +1,335 @@
+.contactform-parent-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8em;
+    margin-left: 13%;
+}
+.contactform-subparent-container{
+    margin-left: -30%;
+    gap: 4rem;
+}
+.contactform-heading-container {
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    color: #1E0E62;
+}
+
+.contactform-para-container {
+  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    width: 750px;
+    /* color: black; */
+    /* color: rgba(21, 20, 57, 0.4); */
+}
+
+.contactform-call-container p{
+ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E0E62;
+}
+
+.contactform-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+}
+
+.contactform-button1-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    mix-blend-mode: normal;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* .your-name {
+    mix-blend-mode: normal;
+    border: 2px solid black !important;
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+    color: rgba(21, 20, 57, 0.4);
+    width: 350px;
+    height: 50px;
+} */
+
+/* .email-id {
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    color: rgba(21, 20, 57, 0.4);
+
+} */
+
+.contactform-button2-container {
+    display: flex;
+    flex-direction: row;
+    gap:0.9rem;
+    mix-blend-mode: normal;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.your-name,
+.email-id
+ {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    border-radius: 100px;
+    mix-blend-mode: normal;
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+    width: 350px;
+    height: 50px;
+    border: 2px solid black; 
+}
+
+
+.your-phone{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    border-radius: 100px;
+    mix-blend-mode: normal;
+    border: 2px solid black; /* Set border color to black */
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+    width: 220px;
+    height: 50px;
+}
+
+.Budget {
+  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    border-radius: 100px;
+    mix-blend-mode: normal;
+    border: 2px solid black; /* Set border color to black */
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+    width: 220px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+/* .your-phone {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 194px;
+    mix-blend-mode: normal;
+    border: 2px solid;
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+} */
+
+/* .Budget {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 194px;
+    mix-blend-mode: normal;
+    border: 2px solid;
+    width: 170px;
+    height: 50px;
+    border-radius: 100px;
+} */
+
+ .Company-size {
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    border-radius: 100px;
+    mix-blend-mode: normal;
+    border: 2px solid black; /* Set border color to black */
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+    width: 220px;
+    height: 50px;
+} 
+
+.your-message {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    border-radius: 10px;
+    mix-blend-mode: normal;
+    border: 2px solid black; /* Set border color to black */
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+    width: 730px;
+    height: 150px;
+} 
+.message {
+   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    background: #00A99D;
+    border-radius: 100px;
+    color: black;
+    border: 2px solid #00A99D;
+    margin-left: 560px;
+    margin-top: 10px;
+    padding: 0.8em;
+} 
+
+.message:hover{
+    background: #00A99D;
+    color: white;
+}
+
+.contactform-help-container{
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    margin-top: 8%;
+    margin-left: -70px;
+}
+.contactform-help-container h5{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: #1E0E62;
+    display: flex;
+    align-items: center;
+}
+.contactform-help-container p{
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    mix-blend-mode: normal;
+    display: flex;
+}
+
+
+@media (max-width: 582px){
+    
+
+    .contactform-parent-container{
+        margin: 0 !important;
+        padding: 0 !important;
+      
+    }
+
+    .contactform-subparent-container {
+        margin: 0 !important;
+        width: 350px;
+        text-align: center;
+    }
+
+    .contactform-para-container{
+        width: 350px;
+        text-align: center;
+    }
+
+
+    .contactform-button1-container{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contactform-button2-container{
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .your-message{
+        width: 300px !important;
+    }
+
+    .message{
+        margin-left: 7px;
+        margin-bottom: 10px;
+
+    }
+
+    .your-name, .email-id, .your-phone, .Company-size, .Budget {
+        width: 300px;
+    }
+
+    .your-message {
+        height: 100px;
+    }
+}
