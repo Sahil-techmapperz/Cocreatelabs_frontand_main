@@ -5,9 +5,9 @@ import Movinglogo from '../component/Movinglogo'
 import Gettingstarted from '../component/Gettingstarted'
 import Whyjoin from '../component/Whyjoin'
 import Join from '../component/Join'
-import Upcomingevents from '../component/upcomingevents'
+import Upcomingevents from '../component/Upcomingevents'; // Ensure this path is correct and matches the file system
 import Changemaker from '../component/Changemaker'
-import Knowledge from '../component/knowledge'
+import Knowledge from '../component/Knowledge';
 import Accordian from '../component/Accordian'
 import Newslatter from '../component/Newslatter'
 import Carosal from './Carousel/Carousel'

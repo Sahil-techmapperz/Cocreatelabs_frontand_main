@@ -27,13 +27,13 @@ import Services from './Pages/Services';
 import FeedbackForm from './component/FeedbackForm';
 import Gettingstarted from './component/Gettingstarted';
 import Join from './component/Join';
-import Knowledge from './component/knowledge';
+import Knowledge from './component/Knowledge';
 import Movinglogo from './component/Movinglogo';
 import Newslatter from './component/Newslatter';
 import Offering from './component/Offering';
 import SignUp from './component/SignUp';
-import Cards from './component/cards';
-import Upcomingevents from './component/upcomingevents';
+import Cards from './component/Cards';
+import Upcomingevents from './component/Upcomingevents'; // Ensure the case matches the file name exactly
 import Whyjoin from './component/Whyjoin';
 import Changemaker from './component/Changemaker';
 import Bluerectangle from './component/Bluerectangle';
